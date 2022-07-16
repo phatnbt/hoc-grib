@@ -1,0 +1,47 @@
+.container{
+    width: 80vw ;
+    height: 600px;
+    background-color: rgb(19, 224, 122);
+    margin: auto;
+    /*kich hoat girb*/
+    display: grid;
+    /* chia cot va dinh dang kich thuoc cot */
+    grid-template-columns: 100px 250px 100px 200px;
+    /* tao khoang cach cac cot  */
+    column-gap: 15px;
+    /* chia hang va dinh dang kích thứơc hàng */
+    grid-template-rows: 150px 100px;
+    /*  tạo khoảng cách giữa các cột */
+    row-gap: 15px;
+     
+
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color: aquamarine;
+    /* số ô phần tử chiếm theo cột */
+    grid-column: 2/4;
+}
+.item3{
+    background-color: rgb(14, 17, 16);
+}
+.item4{
+    background-color: rgb(14, 75, 116);
+    /* số ô phần tử chiếm theo hàng*/
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.item5{
+    background-color: rgb(6, 6, 107);
+}
+.item6{
+    background-color: rgb(29, 218, 155);
+}
+.item7{
+    background-color: rgb(53, 13, 38);
+}
+.item8{
+    background-color: rgb(58, 149, 209);
+}
